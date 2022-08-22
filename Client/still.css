@@ -1,0 +1,153 @@
+.KontForma{
+  background-color:#dcbbb2;
+  text-align: center;
+  font-size: x-large;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 20%;
+  border: 3px solid #dcbbb2;
+  line-height: 1;
+  width:300px; 
+  max-width:500px;
+}
+
+.velikaForma{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pomocnaForma{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.PocetniKontejnerSajam{
+  display:flex;
+}
+
+.KompanijeForma{
+  width:fit-content;
+}
+
+.DugmeRaspored{
+  margin-top: 100px;
+ /*color:#ed1e79;*/
+}
+
+.formaPrezentovanje{
+  background-color: whitesmoke;
+  height: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select{
+    background-color: whitesmoke;
+    font-size: large;
+}
+
+td,th{
+  background-color: whitesmoke;
+  width:fit-content;
+  border: solid black;
+  font-size: large;
+}
+
+.KompanijeForma{
+  margin-top: 50px;
+  margin-left: 30px;
+  max-width: 1250px;
+  height:min-content;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Kompanije{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.naslovKompanije{
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  /*font-style: italic;*/
+  color:#ed1e79;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.divKompanija{
+  display:flex;
+  flex-direction: column;
+  background-color: #69a78d;
+  border: solid #176560;
+  margin-top: 10px;
+  font-size: large;
+  width:300px;
+}
+
+.divTask{
+  background-color: whitesmoke;
+}
+
+body{
+  background: url("pozadina.jpg") no-repeat center fixed; 
+  background-size: cover;
+  min-width: 400px;   
+  }
+
+.dugmeOsnovno, .DugmeRaspored, .Dugme{
+  background-color:#ed1e79;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.dugmeTaskovi{
+  background-color: whitesmoke;
+  border: solid black;
+}
+
+.RasporedForma{
+  width:500px;
+  margin-top: 50px;
+  margin-left: 30px;
+  max-width:500px;
+  height:fit-content;
+}
+
+.PrezentovanjeForma{
+  margin: 50px;
+  margin-top: 100px;
+  font-size: x-large;
+  background-color: #dcbbb2;
+  height:fit-content;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid #dcbbb2;
+}
+
+.dugmeSale,.dugmeObrisi, .dugmeIzmeni{
+  background-color: whitesmoke;
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 5px;
+  color:black;
+}
+
+.minikont{
+  margin:10px;
+}
+
+.PocetniKontejnerSajam{
+  display:flex;
+  flex-direction: row;
+}
+
+
